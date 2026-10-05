@@ -30,7 +30,7 @@ spec:
               memory: 128Mi
           readinessProbe:
             httpGet:
-              path: /this-path-does-not-exist
+              path: /
               port: http
             initialDelaySeconds: 3
             periodSeconds: 5
